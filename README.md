@@ -3,7 +3,7 @@
 ## 🇩🇪 Über uns
 
 **VibeCode Solutions** steht für intelligente, KI-gestützte Softwarelösungen, die Technologie und Innovation vereinen.
-Unsere Mission ist es, Unternehmen und Entwicklern den Zugang zu modernen KI-Systemen zu erleichtern – von SaaS-Plattformen über App-Lösungen bis zu maßgeschneiderten Automatisierungstools.
+Unsere Mission ist es, Unternehmen, Entwicklern und Endnutzern den Zugang zu modernen KI-Systemen zu erleichtern – von SaaS-Plattformen über App-Lösungen bis zu maßgeschneiderten Automatisierungstools.
 
 Wir entwickeln Software, die mitdenkt – um Prozesse zu optimieren, Menschen zu entlasten und die Zukunft digitaler Intelligenz mitzugestalten.
 
@@ -20,7 +20,7 @@ Rust • Python • JavaScript (Node.js) • AI/ML Frameworks • Cloud & Edge C
 
 ## 🇬🇧 About us
 **VibeCode Solutions** represents intelligent, AI-powered software solutions that merge technology and innovation.
-Our mission is to make modern AI systems more accessible for businesses and developers — from SaaS platforms to app solutions and custom automation tools.
+Our mission is to make modern AI systems more accessible for businesses, developers and users— from SaaS platforms to app solutions and custom automation tools.
 
 We build software that thinks ahead – designed to optimize processes, enhance productivity, and shape the future of digital intelligence.
 
