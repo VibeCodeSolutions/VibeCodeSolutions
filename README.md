@@ -11,7 +11,6 @@ VibeCode Solutions ist eine Ein-Mann-Bude. Aufträge finanzieren Eigenprodukte �
 - **[tracelab](https://github.com/VibeCodeSolutions/tracelab)** – Cross-Platform Test-Log Hub für Android, Linux und Windows. Go-Daemon mit MCP-Integration für Claude Code. Aktiv in Entwicklung.
 - **[Pulse-Guard](https://github.com/VibeCodeSolutions/Pulse-Guard)** – Android-App für Blutdruck und Puls. Kotlin, simpel, offline.
 - **[Pomodoro-Timer](https://github.com/VibeCodeSolutions/Pomodoro-Timer)** – Desktop-Timer mit Tauri v2.
-- **[vibecoder-agent](https://github.com/VibeCodeSolutions/vibecoder-agent)** – AI-Pair-Programmer als VS-Code-Erweiterung.
 
 Plus ein Android-Portfolio und ein paar Tauri-Experimente. READMEs ziehen wir Stück für Stück nach.
 
@@ -34,7 +33,6 @@ VibeCode Solutions is a one-person shop. Client work funds the products I actual
 - **[tracelab](https://github.com/VibeCodeSolutions/tracelab)** – cross-platform test-log hub (Go + MCP for Claude Code).
 - **[Pulse-Guard](https://github.com/VibeCodeSolutions/Pulse-Guard)** – Android blood-pressure tracker (Kotlin).
 - **[Pomodoro-Timer](https://github.com/VibeCodeSolutions/Pomodoro-Timer)** – Tauri v2 desktop timer.
-- **[vibecoder-agent](https://github.com/VibeCodeSolutions/vibecoder-agent)** – VS Code AI pair-programmer.
 
 Plus an Android side-portfolio and Tauri experiments. READMEs catching up.
 
@@ -45,3 +43,4 @@ Rust · Kotlin/Compose · Go · Tauri 2 · Flutter · TypeScript
 ### Who's behind it
 
 One founder, lots of coffee, a bow as totem. Based in Bad Harzburg, Germany.
+
