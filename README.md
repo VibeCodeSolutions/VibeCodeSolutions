@@ -1,46 +1,61 @@
 # VibeCode Solutions
 
-> Solo-Coding-Shop aus Bad Harzburg. Apps und Tools für Indie-Founder. Build-in-Public seit 2026. 🏹
+Solo-Werkstatt für KI-gestützte Software-Entwicklung. Eigene Multi-Agent-Architektur, eigene Memory-Disziplin, Vibecoding mit Quality-Engineering. Sitz Bad Harzburg, gegründet 02/2026.
 
-## 🇩🇪 Was hier passiert
+## Was wir aktuell bauen
 
-VibeCode Solutions ist eine Ein-Mann-Bude. Aufträge finanzieren Eigenprodukte – und die Eigenprodukte sind das, woran ich tatsächlich glaube. Was hier öffentlich liegt, ist nicht Schaufenster-Politur, sondern echter Stand. Wer mitliest, sieht zu, wie gebaut wird.
+- **Friday** — Personal AI Orchestrator. Zentrale Konsole, die mehrere parallel laufende Claude-Instanzen (CLI, IDE) steuert. Mailbox-Infrastruktur, Hook-System, Routing. Frühe Phase, im Bau. _Repo privat._
+- **NEXUS** — Personal-Todo-OS mit Voice-First-BrainDump, KI-gestützter Sortierung und Cross-Device-Sync (Rust-Core, Tauri-Desktop, Kotlin/Compose-Android). Produktiv lauffähig, mehrere Releases live. _Code bei mir, Nutzung frei._
+- **Tracelab** — Plattformübergreifender KI-Debug-Workflow. Sammelt Logs, Crashes und Test-Outputs aus Android/Linux/Windows in eine zentrale SQLite-DB auf NTFS-shared Storage. Claude Code greift via MCP-Server zu — dieselbe Test-Historie, egal aus welchem OS gebootet. _Repo public._
+- **XBrain** — KI-Agenten-Memory-System. Multi-Agent-Skill-Crew mit Memory-Hierarchie (Persona → Short-Term → Long-Term → Wissen-Lazy-Load), Pflicht-Outro-Disziplin, Findings-Gate. Echte Rollenarchitektur, kein RAG-Wrapper. _Vault-natives Methodik-Showcase, kein Public-Repo._
 
-### Was gerade läuft
+## Werkzeugkasten
 
-- **[tracelab](https://github.com/VibeCodeSolutions/tracelab)** – Cross-Platform Test-Log Hub für Android, Linux und Windows. Go-Daemon mit MCP-Integration für Claude Code. Aktiv in Entwicklung.
-- **[Pulse-Guard](https://github.com/VibeCodeSolutions/Pulse-Guard)** – Android-App für Blutdruck und Puls. Kotlin, simpel, offline.
-- **[Pomodoro-Timer](https://github.com/VibeCodeSolutions/Pomodoro-Timer)** – Desktop-Timer mit Tauri v2.
+Rust · Kotlin/Compose · Go · Tauri 2 (Rust + WebView) · Markdown-Vault + Claude-Code-Skills. Sprachen sind austauschbar — die Methodik bleibt: Architektur planen, Findings-Gate vor Merge, Memory-Disziplin pro Agent.
 
-Plus ein Android-Portfolio und ein paar Tauri-Experimente. READMEs ziehen wir Stück für Stück nach.
+## Skill-Showcase — Sprint-Burst Q1 2026 (abgeschlossen)
 
-### Tech-Stack
+Sechs kleine Android- und Tauri-Apps in einem Sprint-Burst gebaut. Repos bleiben öffentlich erreichbar als Übungsstrecken-Beleg, werden aber nicht weiter gepflegt.
 
-Rust · Kotlin/Compose · Go · Tauri 2 · Flutter · TypeScript
+- [Pulse-Guard](https://github.com/VibeCodeSolutions/Pulse-Guard) — Lokale Blutdruck-Tracking-App, offline (Kotlin · Compose · Room)
+- [Pomodoro-Timer](https://github.com/VibeCodeSolutions/Pomodoro-Timer) — 3-Phasen-Pomodoro-Widget (Tauri v2 · Vanilla JS)
+- [colorlens](https://github.com/VibeCodeSolutions/colorlens) — Farb-Picker via CameraX (Kotlin · Compose)
+- [netpulse](https://github.com/VibeCodeSolutions/netpulse) — TCP-Ping, Port-Scan, DNS, WiFi-Monitoring (Kotlin · Compose · Vico Charts)
+- [sensordash](https://github.com/VibeCodeSolutions/sensordash) — 5-Sensor-Live-Dashboard mit Aufzeichnungs-Service (Kotlin · Compose · Vico Charts)
+- [mobile-mouse](https://github.com/VibeCodeSolutions/mobile-mouse) — Wayland-WLAN-Maus per PWA (Python · FastAPI · WebSocket · evdev/uinput)
 
-### Wer das macht
+## Wer hier liest
 
-Ein Founder, viel Koffein, ein Bogen als Maskottchen. Standort: Bad Harzburg, Niedersachsen.
+Auftragsentwicklung ist, woran wir arbeiten. Eigene Werkstücke entstehen parallel aus eigenem Bedarf — manche werden öffentlich, manche bleiben proprietär. Die Repos hier sind das, was sichtbar sein darf.
 
 ---
 
-## 🇬🇧 What's happening
+# VibeCode Solutions
 
-VibeCode Solutions is a one-person shop. Client work funds the products I actually believe in. What sits here in public isn't a polished storefront — it's the real state of things. If you read along, you watch the building happen.
+Solo workshop for AI-assisted software development. Custom multi-agent architecture, custom memory discipline, vibecoding with quality engineering. Based in Bad Harzburg, founded 02/2026.
 
-### Currently shipping
+## What we're currently building
 
-- **[tracelab](https://github.com/VibeCodeSolutions/tracelab)** – cross-platform test-log hub (Go + MCP for Claude Code).
-- **[Pulse-Guard](https://github.com/VibeCodeSolutions/Pulse-Guard)** – Android blood-pressure tracker (Kotlin).
-- **[Pomodoro-Timer](https://github.com/VibeCodeSolutions/Pomodoro-Timer)** – Tauri v2 desktop timer.
+- **Friday** — Personal AI Orchestrator. A central console that drives multiple parallel Claude instances (CLI, IDE). Mailbox infrastructure, hook system, routing. Early phase, in build. _Repo private._
+- **NEXUS** — Personal-Todo-OS with voice-first brain-dump, AI-assisted sorting, and cross-device sync (Rust core, Tauri desktop, Kotlin/Compose Android). Production-running, several releases out. _Code stays with me, free to use._
+- **Tracelab** — Cross-platform AI debugging workflow. Aggregates logs, crashes, and test outputs from Android, Linux, and Windows into a single SQLite database on NTFS-shared storage. Claude Code connects via MCP server — same test history, no matter which OS you booted into. _Repo public._
+- **XBrain** — AI agent memory system. Multi-agent skill crew with a memory hierarchy (Persona → Short-Term → Long-Term → Knowledge lazy-load), mandatory outro discipline, findings gate. A real role architecture, not a RAG wrapper. _Vault-native methodology showcase, no public repo._
 
-Plus an Android side-portfolio and Tauri experiments. READMEs catching up.
+## Toolbox
 
-### Stack
+Rust · Kotlin/Compose · Go · Tauri 2 (Rust + WebView) · Markdown vault + Claude Code skills. Languages are interchangeable — the methodology stays: plan the architecture, findings gate before merge, memory discipline per agent.
 
-Rust · Kotlin/Compose · Go · Tauri 2 · Flutter · TypeScript
+## Skill Showcase — Q1 2026 sprint burst (completed)
 
-### Who's behind it
+Six small Android and Tauri apps built in one sprint burst. Repos stay publicly reachable as practice-run evidence; they aren't maintained further.
 
-One founder, lots of coffee, a bow as totem. Based in Bad Harzburg, Germany.
+- [Pulse-Guard](https://github.com/VibeCodeSolutions/Pulse-Guard) — Local offline blood-pressure tracker (Kotlin · Compose · Room)
+- [Pomodoro-Timer](https://github.com/VibeCodeSolutions/Pomodoro-Timer) — 3-phase pomodoro widget (Tauri v2 · Vanilla JS)
+- [colorlens](https://github.com/VibeCodeSolutions/colorlens) — Color picker via CameraX (Kotlin · Compose)
+- [netpulse](https://github.com/VibeCodeSolutions/netpulse) — TCP ping, port scan, DNS, Wi-Fi monitoring (Kotlin · Compose · Vico Charts)
+- [sensordash](https://github.com/VibeCodeSolutions/sensordash) — 5-sensor live dashboard with recording service (Kotlin · Compose · Vico Charts)
+- [mobile-mouse](https://github.com/VibeCodeSolutions/mobile-mouse) — Wayland Wi-Fi mouse via PWA (Python · FastAPI · WebSocket · evdev/uinput)
 
+## Who's reading this
+
+Client work is what we do. The repos here are workshop output that grew from our own needs — some go public, some stay proprietary. What you see here is what we let you see.
